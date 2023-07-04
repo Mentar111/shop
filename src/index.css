@@ -216,7 +216,7 @@ main .item img, .full-item img{
   transition: transform 500ms ease;
   cursor: pointer;
 }
-main .item img:hover .full-item img:hover{
+main .item img:hover, .full-item img:hover{
   transform: scale(1.05);
 }
 
